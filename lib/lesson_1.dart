@@ -46,4 +46,20 @@ It can span multiple lines easily!
   //Proper naming of variables
   //'studentGrade' makes more sense than simply 'grade' in the context of a gpa calculating program,
   //A good variable name makes it easy to understand what the variable stands for.
+
+  //Increment and Decrement
+  var counter = 10;
+  counter +=
+      11; // The operator '+=' simply adds 11 to the value of counter which is 10 and then assigns the result of the addition to counter
+  print(counter); //The answer will be 21
+  counter -=
+      12; //this does the opposite of the operation described above earlier
+  print(counter); //The answer will be 9
+
+  //If you just want to incrment a value by 1 or decrement by 1
+  
+  counter++; //adds 1 to the value of the counter
+  print(counter); // this will be 1o
+  counter--; //removes 1 frpm the value of the counter
+  print(counter); // this will be 9
 }
