@@ -18,7 +18,7 @@ void main() {
   const hourlyRate = 10.4; //note that this is a double;
   const hoursWorked = 12; //note that this is an int
   const wages = hourlyRate * hoursWorked;
-  print(wages); //what data type do you think this'll be?
+  print(wages.round()); //what data type do you think this'll be?
 
   //also note that we have the as keyword - this will actually be pretty useful when we start learning flutter
   num number2 = 10;
@@ -26,9 +26,9 @@ void main() {
   print(aNumber);
   //NOTE- You can't cast to a sibling type in dart only to a subtype
   //so you cant do something like this
-  int number3 = 10;
-  var number4 = number3 as double; //this will result in a run time error
-  print(number4);
+  // int number3 = 10;
+  // var number4 = number3 as double; //this will result in a run time error
+  // print(number4);
 
   //Dynamic type
   //note how i'm able to easily reassign the values of the variable
